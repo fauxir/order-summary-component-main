@@ -1,0 +1,70 @@
+body{
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #E0E8FF;
+    width: 1440px;
+    height: auto;
+}
+
+.container{
+    display: table-column;
+    justify-content: center;
+    height: 710px;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    margin: auto;
+
+}
+
+.head-img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.text-container{
+    width: 250px;
+    text-align: center;
+    margin: 40px 35px 0px 95px;
+}
+
+.order-summary{
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fe;
+    height: 100px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 30px 0px 0px 50px;
+    
+}
+
+.text-container-change-txt{
+    margin: 0px 0px 0px 70px;
+}
+
+.order-summary-text{
+
+}
+
+.payment-btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #382ae1;
+    height: 65px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 30px 0px 0px 50px;
+    text-align: center;
+    box-shadow: 0px 10px 20px #b6b2e4;
+}
+
+.cancel-btn{
+    margin: 30px 0px 0px 25px;
+    text-align: center;
+}
